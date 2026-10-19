@@ -1,0 +1,16 @@
+{
+  "name": "deterministic-benchmark-harness",
+  "version": "1.0.0",
+  "description": "High-precision micro-benchmarking and statistical performance profiling framework with outlier rejection and percentile evaluation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "author": "Felipe Madison",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
